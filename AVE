@@ -1,0 +1,8 @@
+#!/bin/bash
+pid=$(pidof 'AvidVideoEngine')
+if  [ $pid ]; then
+    kill $pid
+else
+    echo "Does not exist"
+fi
+killall Terminal
