@@ -6,3 +6,5 @@ else
     echo "Does not exist"
 fi
 killall Terminal
+
+#This script kills AvidVideoEngine from system memory
